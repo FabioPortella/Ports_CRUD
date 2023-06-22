@@ -1,11 +1,12 @@
 @extends('layouts.template')
 
 @section('content')
-    <h1 class="text-center">Crud</h1>
+    <h1 class="text-center">Crud com Laravel 10</h1>
+    <h2 class="text-center">Cadastro de Livros</h1>
 
     <div class="text-center mt-3 mb-4">
         <a href="{{url('books/create')}}">
-            <button class="btn btn-success">Cadastrar</button>
+            <button class="btn btn-success">Cadastrar um novo livro</button>
         </a>
     </div>
 
